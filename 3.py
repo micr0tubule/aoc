@@ -14,6 +14,7 @@ for i in range(area.shape[0]):
     y = i
     if area[y, x] == tree: 
         tree_count += 1
+tree_count # 262
 
 # part 2  
 def encountered_trees(area: np.array, slope: tuple) -> list:
