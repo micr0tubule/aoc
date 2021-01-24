@@ -1,5 +1,3 @@
-
-
 with open('2') as f:
     passwords = [password.split(':') for password in f.readlines()]
 
