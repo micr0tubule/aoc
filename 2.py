@@ -10,7 +10,7 @@ for i in input:
     letter = letter[0]
     if begin <= pw.count(letter) <= end: 
         count += 1 
-count # 439
+# 439
 
 # part 2 
 count = 0 
@@ -28,6 +28,6 @@ for i in input:
         print(pos2)
         print(pw)
         pass  
-count # 584
+# 584
 
 
