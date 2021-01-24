@@ -1,7 +1,6 @@
 with open('2') as f: 
     input = [line.split() for line in f.readlines()]
 
-
 # part 1
 count = 0
 for i in input: 
