@@ -1,7 +1,6 @@
 with open('5') as f:
     codes = f.readlines()
 
-
 def find_seat(code):  
     code = code.replace('F', '0').replace('B', '1').replace('R', '1').replace('L', '0').strip('\n')
     return int(code[:7], 2), int(code[-3:], 2)
